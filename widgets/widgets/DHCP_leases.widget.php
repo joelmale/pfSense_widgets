@@ -291,7 +291,7 @@ foreach ($leases as $data) {
 	}
 
 	$no_leases_displayed = false;
-
+/*  [left over code not required here...]
 	if ($data['act'] == $active_string) {
 		/* Active DHCP Lease */
 		$icon = 'fa-check-circle-o';
@@ -302,7 +302,7 @@ foreach ($leases as $data) {
 		/* Static Mapping */
 		$icon = 'fa-user';
 	}
-
+*/
 	if ($data['act'] != $static_string) {
 		$active_dynamic_leases++;
 
